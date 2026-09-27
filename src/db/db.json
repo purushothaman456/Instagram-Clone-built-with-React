@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "surya_actor",
+      "image": "src\\assets\\97d08bfed01ab5ab77c9b27e255f6fdb.jpg",
+      "caption": "Building my Instagram clone with React 🚀",
+      "likes": 120,
+      "comments": 15,
+      "createdAt": "2 hours ago"
+    },
+    {
+      "id": "2",
+      "username": "vijay_actor",
+      "image": "src\\assets\\images (1).jpg",
+      "caption": "Coding is my passion 💻🔥",
+      "likes": 245,
+      "comments": 32,
+      "createdAt": "4 hours ago"
+    },
+    {
+      "id": "3",
+      "username": "nature_lover",
+      "image": "src\\assets\\download.jpg",
+      "caption": "Beautiful day 🌸",
+      "likes": 389,
+      "comments": 41,
+      "createdAt": "6 hours ago"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "vijay",
+    "profileImage": "src\\assets\\download.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "vijay_actor",
+      "profileImage": "src\\assets\\images (1).jpg"
+    },
+    {
+      "id": "2",
+      "username": "nature_lover",
+      "profileImage": "src\\assets\\download.jpg"
+    },
+    {
+      "id": "3",
+      "username": "surya_actor",
+      "profileImage": "src\\assets\\97d08bfed01ab5ab77c9b27e255f6fdb.jpg"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "username": "surya_actor",
+      "image": "src\\assets\\97d08bfed01ab5ab77c9b27e255f6fdb.jpg",
+      "storyimage": "\\images\\s1.jpg"
+    },
+    {
+      "id": "2",
+      "username": "vijay_actor",
+      "image": "src\\assets\\images (1).jpg",
+      "storyimage": "\\images\\s2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "nature_lover",
+      "image": "src\\assets\\download.jpg",
+      "storyimage": "\\public\\s3.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
